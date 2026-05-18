@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#F3E5F5"/>
+    <!-- Stage -->
+    <path android:pathData="M0,170 L200,170 L200,200 L0,200 Z" android:fillColor="#4A148C"/>
+    <!-- Tanpura instrument -->
+    <path android:pathData="M148,80 Q155,90 155,130 Q155,155 148,165 Q140,170 135,165 Q128,155 128,130 Q128,90 135,80 Q140,75 148,80 Z" android:fillColor="#8D6E63"/>
+    <!-- Tanpura neck -->
+    <path android:pathData="M140,30 L138,80 L145,80 L143,30 Z" android:fillColor="#795548"/>
+    <!-- Tanpura head -->
+    <path android:pathData="M134,25 Q141,18 148,25 L145,35 Q141,30 137,35 Z" android:fillColor="#6D4C41"/>
+    <!-- Tanpura strings -->
+    <path android:pathData="M138,35 L138,160" android:strokeColor="#FFF176" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <path android:pathData="M141,35 L141,160" android:strokeColor="#FFF176" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <path android:pathData="M144,35 L144,160" android:strokeColor="#FFF176" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <!-- Singer figure -->
+    <!-- Saree -->
+    <path android:pathData="M68,110 Q65,140 70,170 L90,170 Q88,140 88,110 Z" android:fillColor="#9C27B0"/>
+    <path android:pathData="M88,110 Q92,140 90,170 L110,170 Q112,140 108,110 Z" android:fillColor="#7B1FA2"/>
+    <!-- Saree pallu flowing -->
+    <path android:pathData="M68,115 Q50,120 42,140 Q38,160 45,170 L55,170 Q52,160 55,145 Q62,132 75,128 Z" android:fillColor="#CE93D8"/>
+    <!-- Body -->
+    <path android:pathData="M75,80 Q75,110 88,112 Q100,110 100,80 Z" android:fillColor="#FFCC80"/>
+    <!-- Head -->
+    <path android:pathData="M88,58 A16,16 0 1,1 88,57.99 Z" android:fillColor="#FFCC80"/>
+    <!-- Hair bun -->
+    <path android:pathData="M75,60 Q80,45 95,50 Q100,58 88,62 Z" android:fillColor="#212121"/>
+    <path android:pathData="M93,46 A7,7 0 1,1 93,45.99 Z" android:fillColor="#37474F"/>
+    <!-- Flowers in hair -->
+    <path android:pathData="M96,44 A5,5 0 1,1 96,43.99 Z" android:fillColor="#FFFFFF"/>
+    <!-- Eyes closed (singing) -->
+    <path android:pathData="M84,60 Q88,58 92,60" android:strokeColor="#5D4037" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M80,60 Q84,57 88,60" android:strokeColor="#5D4037" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <!-- Mouth open (singing) -->
+    <path android:pathData="M84,67 Q88,72 92,67" android:strokeColor="#C62828" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <!-- Jewelry -->
+    <path android:pathData="M80,74 Q88,78 96,74" android:strokeColor="#FFD700" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <!-- Earring -->
+    <path android:pathData="M72,62 A5,5 0 1,1 72,61.99 Z" android:fillColor="#FFD700"/>
+    <!-- Musical notes floating -->
+    <path android:pathData="M40,45 L40,33 L48,31 L48,35 L42,37 L42,45 Z" android:fillColor="#9C27B0"/>
+    <path android:pathData="M55,35 L55,23 L63,21 L63,25 L57,27 L57,35 Z" android:fillColor="#7B1FA2"/>
+    <path android:pathData="M28,60 L28,50 L34,49 L34,53 L30,54 L30,60 Z" android:fillColor="#AB47BC"/>
+    <!-- Arms in singing posture -->
+    <path android:pathData="M75,88 L55,100" android:strokeColor="#FFCC80" android:strokeWidth="8" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M100,88 L120,95" android:strokeColor="#FFCC80" android:strokeWidth="8" android:strokeLineCap="round" android:fillColor="#00000000"/>
+</vector>

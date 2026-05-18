@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#E3F2FD"/>
+    <!-- Sky clouds -->
+    <path android:pathData="M30,35 Q40,20 55,30 Q65,18 80,28 Q85,18 95,25 Q95,40 75,42 Q55,48 30,40 Z" android:fillColor="#FFFFFF"/>
+    <!-- Mountains behind dam -->
+    <path android:pathData="M0,100 Q30,60 60,90 Q90,55 120,85 Q150,50 180,80 L200,90 L200,100 Z" android:fillColor="#90A4AE"/>
+    <!-- Dam structure -->
+    <path android:pathData="M45,100 L45,165 L155,165 L155,100 Q100,108 45,100 Z" android:fillColor="#78909C"/>
+    <!-- Dam face - stepped -->
+    <path android:pathData="M50,105 L50,165 L150,165 L150,105 Z" android:fillColor="#90A4AE"/>
+    <path android:pathData="M55,120 L145,120 L145,125 L55,125 Z" android:fillColor="#78909C"/>
+    <path android:pathData="M60,135 L140,135 L140,140 L60,140 Z" android:fillColor="#78909C"/>
+    <path android:pathData="M65,150 L135,150 L135,155 L65,155 Z" android:fillColor="#78909C"/>
+    <!-- Water behind dam (reservoir) -->
+    <path android:pathData="M0,90 L45,90 L45,100 Q100,108 155,100 L200,95 L200,60 L0,60 Z" android:fillColor="#42A5F5"/>
+    <!-- Water wave on reservoir -->
+    <path android:pathData="M10,75 Q30,70 50,75 Q70,80 90,75 Q110,70 130,75 Q150,80 170,75 Q185,72 195,75" android:strokeColor="#90CAF9" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <!-- Water at base of dam -->
+    <path android:pathData="M0,165 L200,165 L200,200 L0,200 Z" android:fillColor="#1565C0"/>
+    <!-- Spillway water -->
+    <path android:pathData="M90,165 Q95,175 100,165 Q105,175 110,165 L110,185 L90,185 Z" android:fillColor="#64B5F6"/>
+    <!-- Dam top road -->
+    <path android:pathData="M45,97 L155,97 L155,103 L45,103 Z" android:fillColor="#546E7A"/>
+    <!-- Gate openings -->
+    <path android:pathData="M82,155 L82,165 L92,165 L92,155 Z" android:fillColor="#1565C0"/>
+    <path android:pathData="M108,155 L108,165 L118,165 L118,155 Z" android:fillColor="#1565C0"/>
+</vector>

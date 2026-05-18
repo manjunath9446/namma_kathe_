@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- ic_hill.xml - Nandi Hills with mist -->
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#E8EAF6"/>
+    <!-- Sky gradient suggestion -->
+    <path android:pathData="M0,0 L200,0 L200,80 L0,80 Z" android:fillColor="#BBDEFB"/>
+    <!-- Sun peeking -->
+    <path android:pathData="M150,40 A20,20 0 1,1 150,39.99 Z" android:fillColor="#FFCC02"/>
+    <!-- Far hills -->
+    <path android:pathData="M0,120 Q40,80 80,110 Q120,70 160,105 Q185,88 200,100 L200,200 L0,200 Z" android:fillColor="#7986CB"/>
+    <!-- Main Nandi hill -->
+    <path android:pathData="M30,170 Q80,80 130,130 Q155,110 180,160 L200,165 L200,200 L0,200 Z" android:fillColor="#3949AB"/>
+    <!-- Mist bands -->
+    <path android:pathData="M0,130 Q50,125 100,132 Q150,125 200,130 L200,138 Q150,133 100,140 Q50,133 0,138 Z" android:fillColor="#FFFFFF" android:fillAlpha="128"/>
+    <path android:pathData="M0,148 Q60,143 120,150 Q160,145 200,148 L200,155 Q160,152 120,158 Q60,150 0,155 Z" android:fillColor="#FFFFFF" android:fillAlpha="100"/>
+    <!-- Temple on hilltop -->
+    <path android:pathData="M90,82 L100,62 L110,82 Z" android:fillColor="#C9541A"/>
+    <path android:pathData="M86,82 L114,82 L114,96 L86,96 Z" android:fillColor="#D7905A"/>
+    <!-- Trees on hill -->
+    <path android:pathData="M60,140 L68,120 L76,140 Z" android:fillColor="#1B5E20"/>
+    <path android:pathData="M148,138 L156,118 L164,138 Z" android:fillColor="#1B5E20"/>
+    <!-- Winding path -->
+    <path android:pathData="M40,195 Q60,180 80,170 Q90,140 100,96" android:strokeColor="#C9541A" android:strokeWidth="2" android:strokeLineCap="round" android:fillColor="#00000000"/>
+</vector>

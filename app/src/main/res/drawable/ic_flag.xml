@@ -1,0 +1,43 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#E8F5E9"/>
+    <!-- Ground -->
+    <path android:pathData="M0,175 L200,175 L200,200 L0,200 Z" android:fillColor="#8D6E63"/>
+    <!-- Flagpole -->
+    <path android:pathData="M60,15 L60,175 L66,175 L66,15 Z" android:fillColor="#8D6E63"/>
+    <!-- Flag (tricolor suggestion - saffron, white, green) -->
+    <path android:pathData="M66,20 Q140,28 160,35 Q140,42 66,38 Z" android:fillColor="#FF6F00"/>
+    <path android:pathData="M66,38 Q140,46 160,50 Q140,55 66,54 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M66,54 Q140,62 160,65 Q140,70 66,68 Z" android:fillColor="#2E7D32"/>
+    <!-- Chakra on white band -->
+    <path android:pathData="M110,46 A6,6 0 1,1 110,45.99 Z" android:fillColor="#1565C0"/>
+    <!-- Spokes of chakra -->
+    <path android:pathData="M110,40 L110,52" android:strokeColor="#1565C0" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <path android:pathData="M104,46 L116,46" android:strokeColor="#1565C0" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <path android:pathData="M105.75,41.75 L114.25,50.25" android:strokeColor="#1565C0" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <path android:pathData="M114.25,41.75 L105.75,50.25" android:strokeColor="#1565C0" android:strokeWidth="1" android:fillColor="#00000000"/>
+    <!-- Crowd of people (silhouettes) -->
+    <!-- Person 1 -->
+    <path android:pathData="M80,140 A8,8 0 1,1 80,139.99 Z" android:fillColor="#5D4037"/>
+    <path android:pathData="M76,155 Q80,148 84,155 L84,175 L76,175 Z" android:fillColor="#4E342E"/>
+    <!-- Person 2 -->
+    <path android:pathData="M100,138 A8,8 0 1,1 100,137.99 Z" android:fillColor="#5D4037"/>
+    <path android:pathData="M96,153 Q100,146 104,153 L104,175 L96,175 Z" android:fillColor="#C9541A"/>
+    <!-- Person 3 -->
+    <path android:pathData="M120,141 A8,8 0 1,1 120,140.99 Z" android:fillColor="#5D4037"/>
+    <path android:pathData="M116,156 Q120,149 124,156 L124,175 L116,175 Z" android:fillColor="#2E7D32"/>
+    <!-- Person 4 -->
+    <path android:pathData="M140,143 A8,8 0 1,1 140,142.99 Z" android:fillColor="#5D4037"/>
+    <path android:pathData="M136,158 Q140,151 144,158 L144,175 L136,175 Z" android:fillColor="#4E342E"/>
+    <!-- Arms raised -->
+    <path android:pathData="M76,152 L65,140" android:strokeColor="#5D4037" android:strokeWidth="4" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M104,150 L115,138" android:strokeColor="#5D4037" android:strokeWidth="4" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <path android:pathData="M116,153 L105,142" android:strokeColor="#5D4037" android:strokeWidth="4" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <!-- Sun rays behind flag -->
+    <path android:pathData="M63,25 L45,10" android:strokeColor="#FFCA28" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M63,30 L42,20" android:strokeColor="#FFCA28" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M63,20 L50,8" android:strokeColor="#FFCA28" android:strokeWidth="2" android:fillColor="#00000000"/>
+</vector>

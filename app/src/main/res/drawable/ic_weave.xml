@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#FCE4EC"/>
+    <!-- Loom frame -->
+    <path android:pathData="M40,30 L40,180 L50,180 L50,30 Z" android:fillColor="#8D6E63"/>
+    <path android:pathData="M150,30 L150,180 L160,180 L160,30 Z" android:fillColor="#8D6E63"/>
+    <path android:pathData="M40,30 L160,30 L160,42 L40,42 Z" android:fillColor="#6D4C41"/>
+    <path android:pathData="M40,168 L160,168 L160,180 L40,180 Z" android:fillColor="#6D4C41"/>
+    <!-- Warp threads (vertical) -->
+    <path android:pathData="M58,42 L58,168" android:strokeColor="#E91E63" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M66,42 L66,168" android:strokeColor="#FF5722" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M74,42 L74,168" android:strokeColor="#FFEB3B" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M82,42 L82,168" android:strokeColor="#4CAF50" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M90,42 L90,168" android:strokeColor="#2196F3" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M98,42 L98,168" android:strokeColor="#9C27B0" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M106,42 L106,168" android:strokeColor="#FF9800" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M114,42 L114,168" android:strokeColor="#00BCD4" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M122,42 L122,168" android:strokeColor="#E91E63" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M130,42 L130,168" android:strokeColor="#FF5722" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M138,42 L138,168" android:strokeColor="#FFEB3B" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M146,42 L146,168" android:strokeColor="#4CAF50" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <!-- Weft threads (horizontal) - woven pattern -->
+    <path android:pathData="M50,55 L150,55" android:strokeColor="#FFD700" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,63 L150,63" android:strokeColor="#C9541A" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,71 L150,71" android:strokeColor="#FFD700" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,79 L150,79" android:strokeColor="#C9541A" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,87 L150,87" android:strokeColor="#FFD700" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,95 L150,95" android:strokeColor="#C9541A" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,103 L150,103" android:strokeColor="#FFD700" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <path android:pathData="M50,111 L150,111" android:strokeColor="#C9541A" android:strokeWidth="2.5" android:fillColor="#00000000"/>
+    <!-- Shuttle -->
+    <path android:pathData="M70,119 Q100,112 130,119 Q100,126 70,119 Z" android:fillColor="#5D4037"/>
+    <path android:pathData="M68,116 L132,116 L132,122 L68,122 Z" android:fillColor="#795548"/>
+    <!-- Gold thread on shuttle -->
+    <path android:pathData="M70,119 L130,119" android:strokeColor="#FFD700" android:strokeWidth="3" android:fillColor="#00000000"/>
+</vector>

@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#E8F5E9"/>
+    <!-- Sun -->
+    <path android:pathData="M165,30 A16,16 0 1,1 165,29.99 Z" android:fillColor="#FFF176"/>
+    <!-- Ground -->
+    <path android:pathData="M0,160 L200,160 L200,200 L0,200 Z" android:fillColor="#388E3C"/>
+    <!-- Back trees -->
+    <path android:pathData="M20,160 L35,80 L50,160 Z" android:fillColor="#2E7D32"/>
+    <path android:pathData="M160,160 L175,85 L190,160 Z" android:fillColor="#2E7D32"/>
+    <!-- Mid trees -->
+    <path android:pathData="M55,160 L72,90 L89,160 Z" android:fillColor="#388E3C"/>
+    <path android:pathData="M118,160 L135,88 L152,160 Z" android:fillColor="#388E3C"/>
+    <!-- Front big tree left -->
+    <path android:pathData="M15,160 L35,55 L55,160 Z" android:fillColor="#1B5E20"/>
+    <path android:pathData="M28,100 L20,160 L50,160 L42,100 Z" android:fillColor="#33691E"/>
+    <!-- Front big tree right -->
+    <path android:pathData="M145,160 L165,55 L185,160 Z" android:fillColor="#1B5E20"/>
+    <!-- Elephant in center -->
+    <path android:pathData="M78,145 Q75,125 85,115 Q100,105 115,115 Q125,125 122,145 Q110,155 100,155 Q88,155 78,145 Z" android:fillColor="#90A4AE"/>
+    <!-- Elephant head -->
+    <path android:pathData="M80,118 Q78,108 85,102 Q95,96 105,100 Q112,105 110,118 Z" android:fillColor="#90A4AE"/>
+    <!-- Trunk -->
+    <path android:pathData="M82,118 Q72,128 75,145 Q80,150 84,145 Q84,132 90,128" android:strokeColor="#78909C" android:strokeWidth="7" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <!-- Ear -->
+    <path android:pathData="M80,110 Q70,115 72,128 Q78,130 82,120 Z" android:fillColor="#B0BEC5"/>
+    <!-- Eye -->
+    <path android:pathData="M98,106 A4,4 0 1,1 98,105.99 Z" android:fillColor="#37474F"/>
+    <!-- Legs -->
+    <path android:pathData="M85,155 L83,175 L90,175 L92,155 Z" android:fillColor="#78909C"/>
+    <path android:pathData="M108,155 L106,175 L113,175 L115,155 Z" android:fillColor="#78909C"/>
+    <!-- Tusk -->
+    <path android:pathData="M88,118 Q78,120 74,130" android:strokeColor="#FFFDE7" android:strokeWidth="4" android:strokeLineCap="round" android:fillColor="#00000000"/>
+    <!-- Tail -->
+    <path android:pathData="M120,135 Q130,130 128,145" android:strokeColor="#78909C" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <!-- Butterfly -->
+    <path android:pathData="M130,75 Q138,65 140,75 Q138,80 130,75 Z" android:fillColor="#FF8F00"/>
+    <path android:pathData="M130,75 Q122,65 120,75 Q122,80 130,75 Z" android:fillColor="#FF8F00"/>
+    <!-- Bird -->
+    <path android:pathData="M50,60 Q55,55 60,60" android:strokeColor="#1565C0" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M60,60 Q65,55 70,60" android:strokeColor="#1565C0" android:strokeWidth="2" android:fillColor="#00000000"/>
+</vector>

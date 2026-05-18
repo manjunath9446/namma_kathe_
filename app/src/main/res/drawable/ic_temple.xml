@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Sky -->
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#FFF3E0"/>
+    <!-- Sun -->
+    <path android:pathData="M160,30 A12,12 0 1,1 160,29.99 Z" android:fillColor="#FFCA28"/>
+    <!-- Ground -->
+    <path android:pathData="M0,165 L200,165 L200,200 L0,200 Z" android:fillColor="#A5D6A7"/>
+    <!-- Main tower (shikhara) -->
+    <path android:pathData="M85,80 L100,30 L115,80 Z" android:fillColor="#C9541A"/>
+    <path android:pathData="M80,80 L120,80 L120,165 L80,165 Z" android:fillColor="#D7905A"/>
+    <!-- Side mini towers -->
+    <path android:pathData="M68,100 L78,70 L88,100 Z" android:fillColor="#C9541A"/>
+    <path android:pathData="M65,100 L91,100 L91,155 L65,155 Z" android:fillColor="#E8B080"/>
+    <path android:pathData="M112,100 L122,70 L132,100 Z" android:fillColor="#C9541A"/>
+    <path android:pathData="M109,100 L135,100 L135,155 L109,155 Z" android:fillColor="#E8B080"/>
+    <!-- Door -->
+    <path android:pathData="M92,130 A8,15 0 0,1 108,130 L108,165 L92,165 Z" android:fillColor="#5C3D1E"/>
+    <!-- Decorative lines on tower -->
+    <path android:pathData="M82,90 L118,90" android:strokeColor="#C9541A" android:strokeWidth="1.5" android:fillColor="#00000000"/>
+    <path android:pathData="M83,100 L117,100" android:strokeColor="#C9541A" android:strokeWidth="1.5" android:fillColor="#00000000"/>
+    <path android:pathData="M84,110 L116,110" android:strokeColor="#C9541A" android:strokeWidth="1.5" android:fillColor="#00000000"/>
+    <!-- Steps -->
+    <path android:pathData="M72,165 L128,165 L128,170 L72,170 Z" android:fillColor="#BCAAA4"/>
+    <path android:pathData="M76,170 L124,170 L124,175 L76,175 Z" android:fillColor="#A1887F"/>
+    <!-- Flag -->
+    <path android:pathData="M100,30 L100,15" android:strokeColor="#5C3D1E" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M100,15 L114,20 L100,25 Z" android:fillColor="#C9541A"/>
+</vector>

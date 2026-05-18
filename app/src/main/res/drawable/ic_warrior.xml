@@ -1,0 +1,38 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <!-- Background -->
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#FFF8E1"/>
+    <!-- Ground -->
+    <path android:pathData="M0,165 L200,165 L200,200 L0,200 Z" android:fillColor="#A5D6A7"/>
+    <!-- Horse body -->
+    <path android:pathData="M55,130 Q60,100 90,100 Q120,100 130,115 Q140,100 150,105 Q145,125 130,130 Q140,145 130,155 Q110,160 90,155 Q65,155 55,130 Z" android:fillColor="#8D6E63"/>
+    <!-- Horse head + neck -->
+    <path android:pathData="M130,115 Q145,105 155,90 Q160,80 155,72 Q148,68 142,75 Q138,82 132,90 Q125,100 120,110 Z" android:fillColor="#8D6E63"/>
+    <!-- Horse legs -->
+    <path android:pathData="M70,155 L68,185 L75,185 L77,155 Z" android:fillColor="#795548"/>
+    <path android:pathData="M88,155 L86,185 L93,185 L95,155 Z" android:fillColor="#795548"/>
+    <path android:pathData="M110,155 L108,185 L115,185 L117,155 Z" android:fillColor="#795548"/>
+    <path android:pathData="M125,155 L130,185 L137,185 L132,155 Z" android:fillColor="#795548"/>
+    <!-- Rider body -->
+    <path android:pathData="M88,60 Q95,55 108,60 L112,110 L85,110 Z" android:fillColor="#C9541A"/>
+    <!-- Rider head -->
+    <path android:pathData="M98,40 A14,14 0 1,1 98,39.99 Z" android:fillColor="#FFCC80"/>
+    <!-- Helmet -->
+    <path android:pathData="M84,42 Q98,25 112,42 Q108,35 98,33 Q88,35 84,42 Z" android:fillColor="#607D8B"/>
+    <path android:pathData="M95,25 L95,15 L101,15 L101,25 Z" android:fillColor="#607D8B"/>
+    <!-- Sword raised -->
+    <path android:pathData="M112,65 L148,20" android:strokeColor="#B0BEC5" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M145,17 L152,24 L148,20 Z" android:fillColor="#CFD8DC"/>
+    <path android:pathData="M107,72 L118,60 L122,64 L111,76 Z" android:fillColor="#8D6E63"/>
+    <!-- Shield -->
+    <path android:pathData="M82,68 Q72,75 72,90 Q72,105 82,110 Q88,100 88,85 Q88,75 82,68 Z" android:fillColor="#1565C0"/>
+    <path android:pathData="M76,86 L88,86" android:strokeColor="#FFFFFF" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <path android:pathData="M82,80 L82,92" android:strokeColor="#FFFFFF" android:strokeWidth="2" android:fillColor="#00000000"/>
+    <!-- Mane -->
+    <path android:pathData="M150,72 Q158,60 155,55 Q148,58 145,65" android:strokeColor="#5D4037" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <!-- Tail -->
+    <path android:pathData="M55,130 Q40,125 38,145 Q45,155 55,148" android:strokeColor="#5D4037" android:strokeWidth="4" android:fillColor="#00000000"/>
+</vector>

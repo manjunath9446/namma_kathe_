@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    <path android:pathData="M0,0 L200,0 L200,200 L0,200 Z" android:fillColor="#212121"/>
+    <!-- Stars in dark sky -->
+    <path android:pathData="M25,20 A2,2 0 1,1 25,19.99 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M60,15 A2,2 0 1,1 60,14.99 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M100,10 A2,2 0 1,1 100,9.99 Z" android:fillColor="#FFEB3B"/>
+    <path android:pathData="M140,18 A2,2 0 1,1 140,17.99 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M175,12 A2,2 0 1,1 175,11.99 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M45,35 A2,2 0 1,1 45,34.99 Z" android:fillColor="#FFFFFF"/>
+    <path android:pathData="M165,30 A2,2 0 1,1 165,29.99 Z" android:fillColor="#FFFFFF"/>
+    <!-- Ground level / mine entrance dark area -->
+    <path android:pathData="M0,130 L200,130 L200,200 L0,200 Z" android:fillColor="#37474F"/>
+    <!-- Mining headframe / tower structure -->
+    <path android:pathData="M80,130 L80,55 L90,55 L90,130 Z" android:fillColor="#546E7A"/>
+    <path android:pathData="M110,130 L110,55 L120,55 L120,130 Z" android:fillColor="#546E7A"/>
+    <path android:pathData="M78,55 L122,55 L122,65 L78,65 Z" android:fillColor="#455A64"/>
+    <!-- Diagonal supports -->
+    <path android:pathData="M80,130 L122,55" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M120,130 L78,55" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <!-- Pulley wheel at top -->
+    <path android:pathData="M100,52 A12,12 0 1,1 100,51.99 Z" android:fillColor="#78909C"/>
+    <path android:pathData="M100,52 A5,5 0 1,1 100,51.99 Z" android:fillColor="#546E7A"/>
+    <!-- Mine shaft entrance -->
+    <path android:pathData="M82,130 A18,10 0 0,1 118,130 Z" android:fillColor="#212121"/>
+    <!-- Rope going down -->
+    <path android:pathData="M100,64 L100,130" android:strokeColor="#BCAAA4" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <!-- Minecart on tracks -->
+    <path android:pathData="M55,148 L55,162 L90,162 L90,148 Z" android:fillColor="#78909C"/>
+    <!-- Cart wheels -->
+    <path android:pathData="M62,162 A7,7 0 1,1 62,161.99 Z" android:fillColor="#546E7A"/>
+    <path android:pathData="M83,162 A7,7 0 1,1 83,161.99 Z" android:fillColor="#546E7A"/>
+    <!-- Gold nuggets in cart! -->
+    <path android:pathData="M60,150 A5,5 0 1,1 60,149.99 Z" android:fillColor="#FFD700"/>
+    <path android:pathData="M72,148 A6,6 0 1,1 72,147.99 Z" android:fillColor="#FFCA28"/>
+    <path android:pathData="M83,151 A4,4 0 1,1 83,150.99 Z" android:fillColor="#FFD700"/>
+    <!-- Tracks -->
+    <path android:pathData="M30,168 L170,168" android:strokeColor="#78909C" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M30,172 L170,172" android:strokeColor="#78909C" android:strokeWidth="3" android:fillColor="#00000000"/>
+    <path android:pathData="M40,165 L40,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M60,165 L60,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M80,165 L80,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M100,165 L100,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M120,165 L120,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M140,165 L140,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <path android:pathData="M160,165 L160,175" android:strokeColor="#546E7A" android:strokeWidth="4" android:fillColor="#00000000"/>
+    <!-- Miner with lamp -->
+    <path android:pathData="M148,112 A10,10 0 1,1 148,111.99 Z" android:fillColor="#FFCC80"/>
+    <!-- Hard hat -->
+    <path android:pathData="M138,115 Q148,105 158,115 Z" android:fillColor="#FFCA28"/>
+    <path android:pathData="M148,107 L148,102 L152,102 L152,107 Z" android:fillColor="#FFCA28"/>
+    <!-- Lamp light -->
+    <path android:pathData="M152,102 L165,90 Q170,85 165,95 Q160,98 152,102 Z" android:fillColor="#FFF176" android:fillAlpha="180"/>
+    <!-- Miner body -->
+    <path android:pathData="M143,125 Q143,150 148,152 Q153,150 157,125 Z" android:fillColor="#546E7A"/>
+</vector>

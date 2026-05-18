@@ -1,0 +1,71 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Background: Temple/Stage Setting -->
+    <path android:fillColor="#263238"
+        android:pathData="M0,0H200V200H0Z"/>
+
+    <!-- Stage Floor -->
+    <path android:fillColor="#3E2723"
+        android:pathData="M0,170H200V200H0Z"/>
+
+    <!-- 1. THE KIRITA (Large Iconic Headgear) -->
+    <!-- Outer Golden Halo -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M50,70 Q100,-10 150,70 L130,80 Q100,20 70,80 Z"/>
+    <!-- Inner Red Detail -->
+    <path android:fillColor="#B71C1C"
+        android:pathData="M75,60 Q100,25 125,60 L115,65 Q100,40 85,65 Z"/>
+    <!-- Top Tip (Kalasa) -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M95,15 L105,15 L100,5 Z"/>
+
+    <!-- 2. FACE & MAKEUP -->
+    <path android:fillColor="#FFF9C4"
+        android:pathData="M85,75 Q100,105 115,75 Z"/>
+    <!-- Large Kathakali/Yakshagana Eyes -->
+    <path android:strokeColor="#000" android:strokeWidth="1.5"
+        android:pathData="M88,85 Q93,82 97,85"/>
+    <path android:strokeColor="#000" android:strokeWidth="1.5"
+        android:pathData="M103,85 Q107,82 112,85"/>
+    <!-- Traditional Red/Black Mustache/Markings -->
+    <path android:fillColor="#000000"
+        android:pathData="M90,95 Q100,100 110,95 L100,98 Z"/>
+
+    <!-- 3. BHUJAKEERTHI (Shoulder Ornaments) -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M60,105 Q50,90 75,95 Z"/> <!-- Left -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M140,105 Q150,90 125,95 Z"/> <!-- Right -->
+
+    <!-- 4. TORSO & KACHE (Traditional Pleated Dress) -->
+    <path android:fillColor="#D84315"
+        android:pathData="M80,100 L120,100 L130,150 L70,150 Z"/>
+    <!-- Golden Waist Belt (Dabu) -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M78,135 H122 V145 H78 Z"/>
+
+    <!-- 5. LEGS & GHUNGROO -->
+    <!-- Left Leg in a classic bent pose -->
+    <path android:fillColor="#1B5E20"
+        android:pathData="M85,150 L70,180 L85,185 L95,150 Z"/>
+    <!-- Right Leg -->
+    <path android:fillColor="#1B5E20"
+        android:pathData="M115,150 L130,180 L115,185 L105,150 Z"/>
+
+    <!-- Ankle Bells (Ghungroo) -->
+    <path android:fillColor="#FFD700"
+        android:pathData="M70,180 A3,3 0 1,0 76,180 Z"/>
+    <path android:fillColor="#FFD700"
+        android:pathData="M124,180 A3,3 0 1,0 130,180 Z"/>
+
+    <!-- 6. ARMS (Classic Mudra Pose) -->
+    <path android:strokeColor="#FFF9C4" android:strokeWidth="7" android:strokeLineCap="round"
+        android:pathData="M80,110 L50,130"/>
+    <path android:strokeColor="#FFF9C4" android:strokeWidth="7" android:strokeLineCap="round"
+        android:pathData="M120,110 L150,130"/>
+
+</vector>

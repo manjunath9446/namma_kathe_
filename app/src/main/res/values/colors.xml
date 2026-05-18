@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_saffron">#C9541A</color>
+    <color name="bg_cream">#FDF6EC</color>
+    <color name="text_dark">#1A1209</color>
+    <color name="text_brown">#5C3D1E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_illustration_bg">#FFF3E0</color>
+    <color name="tag_green">#2E7D32</color>
+    <color name="tag_blue">#1565C0</color>
+    <color name="tag_purple">#6A1B9A</color>
+    <color name="correct_green">#2E7D32</color>
+    <color name="wrong_red">#C62828</color>
+</resources>
