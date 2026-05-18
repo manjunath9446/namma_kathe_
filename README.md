@@ -79,19 +79,7 @@ Sync Gradle → Build Project → Run App
 
 ---
 
-## 📸 Screenshots
 
-Add application screenshots here.
-
-Example:
-
-```md
-![Home Screen](screenshots/home.png)
-
-![Story Screen](screenshots/story.png)
-```
-
----
 
 ## 🎯 Future Enhancements
 
