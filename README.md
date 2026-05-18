@@ -61,7 +61,7 @@ app/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/NammaKathe.git
+git clone https://github.com/manjunath9446/namma_kathe_.git
 ```
 
 ### Open Project
